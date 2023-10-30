@@ -1569,6 +1569,7 @@ declare namespace naver.maps {
             getDrawing(id: string): DrawingOverlay;
             getDrawings(): { [key: string]: DrawingOverlay };
             getMap(): Map | null;
+            removeDrawing(overlayOrId: DrawingOverlay | string): void;
             setMap(map: Map | null): void;
             toGeoJson(): GeoJSON;
             getOptions<K extends keyof DrawingOptions>(key: K): DrawingOptions[K];
