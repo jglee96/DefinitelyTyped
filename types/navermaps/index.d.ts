@@ -1530,8 +1530,6 @@ declare namespace naver.maps {
             ADD = "drawing_added",
             REMOVE = "drawing_removed",
             SELECT = "drawing_selected",
-            CANCLE = "drawing_cancled",
-            START = "drawing_start",
         }
 
         interface DrawingOptions {
